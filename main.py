@@ -15,7 +15,6 @@ soup = bs.BeautifulSoup(sauce, 'lxml')
 
 
 bFound = False
-bFFound = False
 
 
 for paragraph in soup.find_all('td'):
@@ -25,7 +24,6 @@ for paragraph in soup.find_all('td'):
     elif bFound:
         number = paragraph.text
         bFound = False
-        bFFound = True
 
 if( bFFound == False):
     print("not found")
