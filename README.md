@@ -13,4 +13,7 @@ sFrom = 'editme'
 sTo = 'editme'
 password = 'editme'
 ```
+
+You can run it in the background using screen
+
 Good luck getting pushed in!
